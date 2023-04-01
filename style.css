@@ -1,0 +1,58 @@
+body {
+    background-color: black;
+    color: aliceblue;
+}
+
+main {
+    display: flex;
+    height: 95vh;
+    flex-direction: column;
+    align-items: center;
+}
+button {
+    padding: auto;
+    border-radius: 0.5rem;
+    background-color: grey;
+    border-color: grey;
+    box-shadow: 3px 2px 3px grey;
+}
+
+#main {
+    display: flex;
+    height: 98vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#listcomponents {
+    display: flex;
+}
+
+#list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#lists {
+    display: flex;
+    width: auto;
+    justify-content: flex-end;
+}
+
+.actlist {
+    display: flex;
+    width: 100vh;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.delete {
+    width: auto;
+    height: 50%;
+    background-color: red;
+    border-color: red;
+    box-shadow: 3px 2px 4px red;
+}
